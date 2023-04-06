@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="_top">
+            <div class="topCont">
+                <div class="acces">
+                    Get unlimited Access Today . Explore our Amazing offers
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.4301 5.93005L20.5001 12.0001L14.4301 18.0701" stroke="white" stroke-width="1.5"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M3.5 12H20.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="lang">
+                    <span class="loc">Location
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9L12 15L18 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    <span class="loc">Eng
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9L12 15L18 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navWrapper">
+            <div class="navbar">
+                <div class="logoWrapper">
+                    <svg width="148" height="96" viewBox="0 0 148 96" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="148" height="96" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_4216_6618"
+                                    transform="matrix(0.0052356 0 0 0.00807155 0 -0.0004363)" />
+                            </pattern>
+                            <image id="image0_4216_6618" width="191" height="124"
+                                xlink:href="data:image/jpeg;base64,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" />
+                        </defs>
+                    </svg>
+                </div>
+                <div class="linksWrapper">
+                    <ul class="linkWrap">
+                        <li class="links">
+                            Support
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9L12 15L18 9" stroke="#282F49" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <li class="links">
+                            Plans
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9L12 15L18 9" stroke="#282F49" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <li class="links">
+                            Rates
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9L12 15L18 9" stroke="#282F49" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <li class="links">Offers</li>
+                        <li class="links">Phone shop</li>
+                        <li class="links _topUp">Quick Topup</li>
+                        <li class="links">Account</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="herosection">
+        <div class="heroWrapper">
+            <div class="leftSection">
+                <div class="descWrapper">
+                    <p class="claim">Claim your free 15GB for 2months subscription!</p>
+                    <h4 class="heroTitle">
+                        Try Our Unlimited <br />
+                        <span>Hi-Speed Internet </span> Broadband Service
+                    </h4>
+                    <p class="exp">
+                        Experience the best of seamless service and elevate your network
+                        experience with our innovative solutions.
+                    </p>
+                </div>
+
+                <div class="trialBtn">
+                    <button class="trial">Start free trial</button>
+                    <span class="trialSpan"><svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.3455 5.92999L21.3986 12L15.3455 18.07" stroke="#282F49" stroke-width="1.5"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M4.4458 12H21.2291" stroke="#282F49" stroke-width="1.5" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img/man.png" alt="" />
+
+                <span class="_free">Free <br />15GB</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="avail">
+        <div class="availabilityWrapper">
+            <div class="availChild">
+                <h4>Sim Only Deals is Available</h4>
+                <p>Let’s help you with the option that works for you</p>
+            </div>
+            <div class="availChild">
+                <h4 class="-availTitle">6000+</h4>
+                <p>Existing Customer</p>
+            </div>
+            <div class="availChild">
+                <h4 class="-availTitle">
+                    We provide solutions and give you value for your money
+                </h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="why">
+        <div class="whyWrapper">
+            <h4 class="whyTitle">Why choose Tel-mobile</h4>
+
+            <div class="whyItems">
+                <div class="whyInfo">
+                    <span class="icon">
+                        <img src="img/euro.svg" alt="" />
+                    </span>
+                    <div class="whyDetails">
+                        <h6>European union Roaming</h6>
+                        <p>
+                            The Goodnews is that European union alllows customers to use
+                            their mobile phones to make calls, send texts, and use data
+                            without incurring extra charges.
+                        </p>
+                    </div>
+                </div>
+                <div class="whyInfo">
+                    <span class="icon">
+                        <img src="img/5g.png" alt="" />
+                    </span>
+                    <div class="whyDetails">
+                        <h6>5G Network speed</h6>
+                        <p>
+                            Tel-moble provides you with a strong 5G network which enables
+                            you enjoy faster download and upload speeds, improved streaming
+                            quality, and better overall performance when using
+                            data-intensive applications.
+                        </p>
+                    </div>
+                </div>
+                <div class="whyInfo">
+                    <span class="icon">
+                        <img src="img/contract.svg" alt="" />
+                    </span>
+                    <div class="whyDetails">
+                        <h6>No contract / unauthorised debits</h6>
+                        <p>
+                            we have a selfless culture that is focused on putting the needs
+                            of our clients first. We believe that by prioritizing your goals
+                            and objectives, we can build strong and lasting relationships
+                            that benefit everyone involved.
+                        </p>
+                    </div>
+                </div>
+                <div class="whyInfo">
+                    <span class="icon">
+                        <img src="img/save.png" alt="" />
+                    </span>
+                    <div class="whyDetails">
+                        <h6>save more on sim Only deals</h6>
+                        <p>
+                            we stand out in the world of Telecommunications and give value
+                            for your money. we help make decisions that work best for you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="servicesWrapper">
+            <div class="serviceTitle">
+                <h4>Our services</h4>
+                <p>
+                    We have different services that cover a wide range of industries
+                </p>
+            </div>
+
+            <div class="_serviceCardWrapper">
+                <div class="serviceCards">
+                    <div><img src="img/flowerIcon.png" alt="" class="funCard" /></div>
+                    <span class="icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M35.0001 6.66663H5.00008C3.15913 6.66663 1.66675 8.15901 1.66675 9.99996V30C1.66675 31.8409 3.15913 33.3333 5.00008 33.3333H35.0001C36.841 33.3333 38.3334 31.8409 38.3334 30V9.99996C38.3334 8.15901 36.841 6.66663 35.0001 6.66663Z"
+                                stroke="black" stroke-opacity="0.45" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M1.66675 16.6666H38.3334" stroke="black" stroke-opacity="0.45" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    <h4>Internet broadband</h4>
+                    <p>get your 5G broadband service with us now</p>
+                    <span class="more">learn more....</span>
+
+                    <img src="img/flowerbase.png" alt="" class="btm_img" />
+                </div>
+                <div class="serviceCards">
+                    <div><img src="img/flowerIcon.png" alt="" class="funCard" /></div>
+                    <span class="icon"></span>
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M28.3334 3.33337H11.6667C9.82576 3.33337 8.33337 4.82576 8.33337 6.66671V33.3334C8.33337 35.1743 9.82576 36.6667 11.6667 36.6667H28.3334C30.1743 36.6667 31.6667 35.1743 31.6667 33.3334V6.66671C31.6667 4.82576 30.1743 3.33337 28.3334 3.33337Z"
+                            stroke="black" stroke-opacity="0.45" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M20 30H20.0167" stroke="black" stroke-opacity="0.45" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    </span>
+                    <h4>Phone Purchase</h4>
+                    <p>Get your contract phone
+                        purchases here</p>
+                    <span class="more">learn more....</span>
+
+                    <img src="img/flowerbase.png" alt="" class="btm_img" />
+                </div>
+                <div class="serviceCards">
+                    <div><img src="img/flowerIcon.png" alt="" class="funCard" /></div>
+                    <span class="icon">
+                        <img src="img/sim.png" alt="">
+                    </span>
+                    <h4>Sim Contract</h4>
+                    <p>Get your sim only
+                        deals </p>
+                    <span class="more">learn more....</span>
+
+                    <img src="img/flowerbase.png" alt="" class="btm_img" />
+                </div>
+                <div class="serviceCards">
+                    <div><img src="img/flowerIcon.png" alt="" class="funCard" /></div>
+                    <span class="icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M25 5H31.6667C32.5507 5 33.3986 5.35119 34.0237 5.97631C34.6488 6.60143 35 7.44928 35 8.33333V31.6667C35 32.5507 34.6488 33.3986 34.0237 34.0237C33.3986 34.6488 32.5507 35 31.6667 35H25"
+                                stroke="black" stroke-opacity="0.4" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M16.6666 28.3333L25 20L16.6666 11.6666" stroke="black" stroke-opacity="0.4"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M25 20H5" stroke="black" stroke-opacity="0.4" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </span>
+                    <h4>Quick Top-Up</h4>
+                    <p>top up your phone and
+                        enjoy our deals</p>
+                    <span class="more">learn more....</span>
+
+                    <img src="img/flowerbase.png" alt="" class="btm_img" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="downloadApp">
+        <div class="appWrapper">
+            <div class="appDetails">
+                <h4>Download our <br>
+                    <span>Tel-mobile</span> app</h4>
+                <p>Download our app and shop from anywhere .</p>
+                <p class="_play">Available on google play and apple store</p>
+                <button class="down_btn">Download Here</button>
+
+            </div>
+
+
+            <div class="appCommunity">
+                <img src="img/people.png" alt="">
+                <div class="connectCom">
+                    <p>Connect with us
+                        by <span>joining</span> our community </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="packages">
+        <div class="packageWrapper">
+            <div class="packagesTitle">
+                <h4>Choose Package</h4>
+                <div class="plans">
+
+                </div>
+            </div>
+            <div class="packageCardWrapper">
+
+                <div class="packageCard">
+                    <h6 class="planTitle">residential plan</h6>
+
+                    <p class="speed">10 Mb/S</p>
+
+                    <h4 class="price">₦11,900</h4>
+
+                    <p class="mnth">Per months</p>
+
+                    <button class="sub">Subscribe Now</button>
+                </div>
+                <div class="packageCard">
+                    <h6 class="planTitle">Rural plan</h6>
+
+                    <p class="speed">10 Mb/S</p>
+
+                    <h4 class="price">₦11,900</h4>
+
+                    <p class="mnth">Per months</p>
+
+                    <button class="sub">Subscribe Now</button>
+                </div>
+                <div class="packageCard">
+                    <h6 class="planTitle">retail plan</h6>
+
+                    <p class="speed">10 Mb/S</p>
+
+                    <h4 class="price">₦11,900</h4>
+
+                    <p class="mnth">Per months</p>
+
+                    <button class="sub">Subscribe Now</button>
+                </div>
+                <div class="packageCard">
+                    <h6 class="planTitle">large corporate plan</h6>
+
+                    <p class="speed">10 Mb/S</p>
+
+                    <h4 class="price">₦11,900</h4>
+
+                    <p class="mnth">Per months</p>
+
+                    <button class="sub">Subscribe Now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- <section class="achievements">
+        <div class="achievementWrapper">
+            <div class="achievementsTitle">
+                <h4>Our Recent Achievements</h4>
+                <h2>
+                    Setting the pace for others
+                </h2>
+            </div>
+
+            <div class="achievementCardWrapper">
+                <div class="achieveCard">
+                    <img src="img/duste.png" alt="">
+                    <div class="cont">
+                        <h6>dutse railway</h6>
+                        <p>we ran an analysis on the commissing of the project and
+                            we delivered a top notch services . Also we also developed
+                            a long term relationship as a result of the successs of
+                            this project.</p>
+
+                        <span>Click to read more.....</span>
+                    </div>
+                </div>
+                <div class="achieveCard">
+                    <img src="img/duste.png" alt="">
+                    <div class="cont">
+                        <h6>dutse railway</h6>
+                        <p>we ran an analysis on the commissing of the project and
+                            we delivered a top notch services . Also we also developed
+                            a long term relationship as a result of the successs of
+                            this project.</p>
+
+                        <span>Click to read more.....</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section> -->
+    <section class="future">
+        <div class="futureWrapper">
+
+            <div class="leftContent">
+                <img src="img/happyman.png" alt="">
+            </div>
+            <div class="rightContent">
+                <h2>Join</h2>
+                <h4>The Future Of Telecommunication</h4>
+                <button class="reg_btn">Register Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="newsletter">
+
+        <div class="newsletterWrapper">
+
+            <div class="joinNewsWrapper">
+                <div>
+                    <h4>Join our newsletter</h4>
+                    <p>We will send you weekly updates for your better resource management</p>
+                </div> <img src="img/envelope.png" alt="">
+            </div>
+            <div class="subNewsWrap">
+                <input type="text" placeholder="Enter your Email">
+                <button class="newsSub">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <footer class="footerWrapper">
+            <ul class="footerLinks">
+                <li class="_tit">Quick link</li>
+                <li>Company </li>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>Pricing</li>
+            </ul>
+            <ul class="footerLinks">
+                <li class="_tit">Quick link</li>
+                <li>Product </li>
+                <li>Rates</li>
+                <li>Plans</li>
+                <li>Roaming</li>
+                <li>Sitemap</li>
+            </ul>
+
+            <ul class="footerLinks">
+                <li class="_tit">Quick link</li>
+                <li>Resources </li>
+                <li> FAQ</li>
+                <li>Switch To Tel Mobile </li>
+                <li>Online Security</li>
+                <li>Mobile Web Settings</li>
+            </ul>
+            <ul class="footerLinks">
+                <li class="_tit">Contact us</li>
+                <li>39 Afred rewane street Mulliner
+                    towers Ikoyi </li>
+
+            </ul>
+            <ul class="footerLinks">
+                <li class="_tit">Our Social Media</li>
+                <li>
+                    <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="34" cy="34" r="34" fill="#D9D9D9"/>
+<path d="M55.92 22C54.38 22.7 52.72 23.16 51 23.38C52.76 22.32 54.12 20.64 54.76 18.62C53.1 19.62 51.26 20.32 49.32 20.72C47.74 19 45.52 18 43 18C38.3 18 34.46 21.84 34.46 26.58C34.46 27.26 34.54 27.92 34.68 28.54C27.56 28.18 21.22 24.76 17 19.58C16.26 20.84 15.84 22.32 15.84 23.88C15.84 26.86 17.34 29.5 19.66 31C18.24 31 16.92 30.6 15.76 30V30.06C15.76 34.22 18.72 37.7 22.64 38.48C21.3814 38.8244 20.0601 38.8723 18.78 38.62C19.3232 40.325 20.387 41.8168 21.822 42.8859C23.2569 43.9549 24.9909 44.5474 26.78 44.58C23.7472 46.9809 19.9879 48.2786 16.12 48.26C15.44 48.26 14.76 48.22 14.08 48.14C17.88 50.58 22.4 52 27.24 52C43 52 51.66 38.92 51.66 27.58C51.66 27.2 51.66 26.84 51.64 26.46C53.32 25.26 54.76 23.74 55.92 22Z" fill="#313A59"/>
+</svg>
+
+
+<svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="34" cy="34" r="34" fill="#D9D9D9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M35.884 38.826L30.764 33.506L20.9 38.96L31.712 27.488L36.832 32.808L46.692 27.354L35.882 38.826H35.884ZM33.798 14C22.864 14 14 22.288 14 32.514C14 38.33 16.868 43.52 21.356 46.914V54L28.112 50.252C29.912 50.756 31.822 51.028 33.798 51.028C44.734 51.028 53.598 42.738 53.598 32.514C53.598 22.288 44.734 14 33.798 14Z" fill="#313A59"/>
+</svg>
+
+     
+
+<svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="34" cy="34" r="34" fill="#D9D9D9"/>
+<path d="M25.88 17C25.8795 18.0609 25.4575 19.0781 24.707 19.8279C23.9565 20.5777 22.9389 20.9986 21.878 20.998C20.8171 20.9975 19.7999 20.5756 19.0502 19.8251C18.3004 19.0745 17.8795 18.0569 17.88 16.996C17.8805 15.9352 18.3025 14.918 19.053 14.1682C19.8035 13.4184 20.8211 12.9975 21.882 12.998C22.9429 12.9986 23.9601 13.4205 24.7098 14.171C25.4596 14.9216 25.8805 15.9392 25.88 17ZM26 23.96H18V49H26V23.96ZM38.64 23.96H30.68V49H38.56V35.86C38.56 28.54 48.1 27.86 48.1 35.86V49H56V33.14C56 20.8 41.88 21.26 38.56 27.32L38.64 23.96Z" fill="#313A59"/>
+</svg>
+
+                
+                </li>
+              
+            </ul>
+        </footer>
+    </section>
+</body>
+
+</html>
