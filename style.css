@@ -90,7 +90,7 @@
       rgba(3, 38, 63, 0.110525) 100%,
       rgba(18, 108, 142, 0) 100%
     );
-  height: 80vh;
+  height: auto;
   width: 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
